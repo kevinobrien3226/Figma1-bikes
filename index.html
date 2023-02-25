@@ -25,9 +25,9 @@
 }
 
 .multi-image-box {
-    display: grid;
-    grid-template-columns: 30vw 30vw 30vw;
-    padding-left: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
 }
 
 .image-card {
@@ -51,6 +51,7 @@ display: inline;
     vertical-align: top;
     text-align: left;
     font-weight: 600;
+    margin: 10px;
 }
 
 .image-card-price {
@@ -63,6 +64,7 @@ display: inline;
     text-align: left;
     font-weight: 500;
     display: inline-block;
+    margin: 0px;
 }
 
 .rectangle-1 {
