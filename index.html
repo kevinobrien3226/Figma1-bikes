@@ -12,6 +12,43 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,900');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+.page-header {
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bikcraft-png {
+    object-fit: cover;
+    width: 133.54px;
+    height: 28.58px;
+    padding-left: 220px;
+}
+
+.header-space-fill {
+    flex-grow: 1;
+}
+
+.nav-link-container {
+    color: #fafafa;
+    display: flex;
+    align-self: right;
+    font-family: poppins;
+    font-style: normal;
+    font-size: 18x;
+    line-height: 32px; 
+    line-height: 119%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 500;
+    margin: 10px;
+    justify-content: space-between;
+    width: 25vw;
+    padding-right: 220px;
+}
+
 .escolha-header {
     font-family: poppins;
     font-style: normal;
@@ -54,6 +91,11 @@ display: inline;
     margin: 10px;
 }
 
+.price-rectangle-container {
+    display: flex;
+    align-items: center;
+}
+
 .image-card-price {
     font-family: roboto;
     font-style: normal;
@@ -73,12 +115,24 @@ display: inline;
     height: 8px;
     background-color: #FFBB00;
     vertical-align: center;
+    margin: 5px;
 }
 
   </style>
 </head>
 
 <body>
+
+    <div class="page-header">
+        <img class="bikcraft-png" src="vectors/bikcraft.png">
+        <div class="header-space-fill"></div>
+        <div class="nav-link-container">
+            <p class="nav-link-1">Bicicletas</p>
+            <p class="nav-link-2">Seguros</p>
+            <p class="nav-link-3">Contato</p>            
+        </div>
+    </div>
+
    <div class="escolha-header">
         <p>escolha a sua</p>
    </div>
