@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
     <title>escolha a sua</title>
     
     <meta charset="UTF8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
     
     <style>
 
@@ -49,6 +50,56 @@
     padding-right: 220px;
 }
 
+.showcase-container {
+    background-color: black;
+    display: flex;
+    height: 680px;
+    padding-left: 220px;
+}
+
+.showcase-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase-headline {
+    font-family: poppins;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 72px; 
+    line-height: 75%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 600;
+    color: #fafafa;
+}
+
+.showcase-body {
+    font-family: poppins;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 136px; 
+    line-height: 128%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 600;
+    color: #fafafa;
+}
+
+.showcase-button {
+    font-family: poppins;
+    font-weight: 600;
+    width: 217px;
+    height: 56px;
+    background-color: #FFBB00;
+}
+
+.showcase-image {
+    width: 640px;
+    height: 800px;
+    padding-right: 140px;
+}
+
 .escolha-header {
     font-family: poppins;
     font-style: normal;
@@ -68,9 +119,9 @@
 }
 
 .image-card {
-display: flexbox;
-width: 460px;
-display: inline;
+    display: flexbox;
+    width: 460px;
+    display: inline;
 }
 
 .bike-image {
@@ -91,7 +142,7 @@ display: inline;
     margin: 10px;
 }
 
-.price-rectangle-container {
+.rectangle-name-container {
     display: flex;
     align-items: center;
 }
@@ -107,6 +158,7 @@ display: inline;
     font-weight: 500;
     display: inline-block;
     margin: 0px;
+    padding-left:32px;
 }
 
 .rectangle-1 {
@@ -133,36 +185,53 @@ display: inline;
         </div>
     </div>
 
+    <div class="showcase-container">
+        
+        <div class="showcase-text-container">
+            <p class="showcase-headline">bicicletas feitas sob medida.</p>
+            <p class="showcase-body">Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
+            <button class="showcase-button">SELECIONE A SUA</button>
+        </div>
+        <img class="showcase-image" src="images/bicicleta1.png">
+
+    </div>
+
    <div class="escolha-header">
         <p>escolha a sua</p>
    </div>
     
    <div class="multi-image-box"> 
+  
         <div class="image-card">
-            <image class="bike-image" src="images/bicicleta1.png"></image>
-            <p class="image-card-name">Magic Migth</p>
-            <div class="price-rectangle-container">
-                <div class="rectangle-1"></div>
-            <p class="image-card-price">RS 2499</p>
-            </div>
+                <image class="bike-image" src="images/bicicleta1.png"></image>
+                
+                <div class="rectangle-name-container">
+                    <div class="rectangle-1"></div>
+                    <p class="image-card-name">Nebula Cosmic</p>    
+                </div>
+
+                <p class="image-card-price">RS 2499</p>
         </div>
 
         <div class="image-card">
-            <image class="bike-image" src="images/bicicleta2.png"></image>
-            <p class="image-card-name">Nimbus Stark</p>
-            <div class="price-rectangle-container">
-                <div class="rectangle-1"></div>
-            <p class="image-card-price">RS 4909</p>
-            </div>
+                <image class="bike-image" src="images/bicicleta2.png"></image>
+                    
+                <div class="rectangle-name-container">
+                    <div class="rectangle-1"></div>
+                    <p class="image-card-name">Nebula Cosmic</p>
+                </div>
+                <p class="image-card-price">RS 4909</p>
         </div>
 
         <div class="image-card">
-            <image class="bike-image" src="images/bicicleta3.png"></image>
-            <p class="image-card-name">Nebula Cosmic</p>
-            <div class="price-rectangle-container">
-                <div class="rectangle-1"></div>
-            <p class="image-card-price">RS 3999</p>
-            </div>
+                <image class="bike-image" src="images/bicicleta3.png"></image>
+                
+                <div class="rectangle-name-container">
+                    <div class="rectangle-1"></div>
+                    <p class="image-card-name">Nebula Cosmic</p>
+                </div>
+
+                <p class="image-card-price">RS 3999</p>
         </div>
     </div>
         
