@@ -1,9 +1,3 @@
-<style>
-
-/* this was working, felt like above link method for fonts was better, and semi-removed this for potential conflicts, but kept for convenience in case needed later. Which is better? */
-/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,900'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
-
 .page-header {
     background-color: black;
     display: flex;
@@ -78,7 +72,7 @@
     vertical-align: top;
     text-align: left;
     font-weight: 500;
-    color: #fafafa;
+    color: #b3b3b3;
 }
 
 .showcase-button {
@@ -112,7 +106,8 @@
 .multi-image-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;   
+    margin-bottom: 200px; 
 }
 
 .image-card {
@@ -167,4 +162,151 @@
     margin: 5px;
 }
 
-  </style>
+.tec-ava-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 960px;
+    padding-left: 220px;
+    margin-bottom: 200px;
+    margin-top: 300px;
+    align-items: center;
+}
+
+.tec-ava-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 35vw;
+}
+
+.tec-ava-superheadline {
+    font-family: roboto;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px; 
+    line-height: 85%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 500;
+    color: #b3b3b3;
+    letter-spacing: 1.5%;
+    text-transform: uppercase;
+}
+
+.tec-ava-headline {
+    font-family: poppins;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 72px; 
+    line-height: 75%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 600;
+    color: #fafafa;
+}
+
+.tec-ava-body {
+    font-family: roboto;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px; 
+    line-height: 85%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 500;
+    color: #b3b3b3;
+
+}
+
+.escolha-link {
+    font-family: roboto;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px; 
+    line-height: 85%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 500;
+    color:#FFBB00;
+    text-decoration:underline;
+}
+
+.tools-image {
+    width: 700px;
+    height: 1120px;
+    padding-right: 140px;
+}
+
+.tec-ava-lower-container {
+    display: flex;
+}
+
+.motor-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.motor-image {
+    width: 24px;
+    height: 22px;
+}
+
+.motor-headline {
+    font-family: poppins;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px; 
+    line-height: 100%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 600;
+    color: #fafafa;
+}
+
+.motor-body {
+    font-family: roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 124px; 
+    line-height: 128%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 500;
+    color: #b3b3b3;
+}
+
+.rast-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.rast-image {
+    width: 22px;
+    height: 22px;
+}
+
+.rast-headline {
+    font-family: poppins;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px; 
+    line-height: 100%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 600;
+    color: #fafafa;
+}
+
+.rast-body {
+    font-family: roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 124px; 
+    line-height: 128%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 500;
+    color: #fafafa;
+}
+
