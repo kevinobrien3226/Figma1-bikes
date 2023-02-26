@@ -1,0 +1,170 @@
+<style>
+
+/* this was working, felt like above link method for fonts was better, and semi-removed this for potential conflicts, but kept for convenience in case needed later. Which is better? */
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,900'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); */
+
+.page-header {
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bikcraft-png {
+    object-fit: cover;
+    width: 133.54px;
+    height: 28.58px;
+    padding-left: 220px;
+}
+
+.header-space-fill {
+    flex-grow: 1;
+}
+
+.nav-link-container {
+    color: #fafafa;
+    display: flex;
+    align-self: right;
+    font-family: poppins;
+    font-style: normal;
+    font-size: 18x;
+    line-height: 32px; 
+    line-height: 119%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 500;
+    margin: 10px;
+    justify-content: space-between;
+    width: 25vw;
+    padding-right: 220px;
+}
+
+.showcase-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 680px;
+    padding-left: 220px;
+    margin-bottom: 200px;
+}
+
+.showcase-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 35vw;
+}
+
+.showcase-headline {
+    font-family: poppins;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 72px; 
+    line-height: 75%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 600;
+    color: #fafafa;
+}
+
+.showcase-body {
+    font-family: roboto;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 136px; 
+    line-height: 128%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+.showcase-button {
+    font-family: poppins;
+    font-weight: 600;
+    width: 217px;
+    height: 56px;
+    background-color: #FFBB00;
+    border-radius: 5px;
+}
+
+.showcase-image {
+    width: 640px;
+    height: 800px;
+    padding-right: 140px;
+}
+
+.escolha-header {
+    font-family: poppins;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 72px; 
+    line-height: 75%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 600;
+    padding-left: 205px;
+    top: 1014px;
+}
+
+.multi-image-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+}
+
+.image-card {
+    display: flexbox;
+    width: 460px;
+    display: inline;
+}
+
+.bike-image {
+    width: 460px;
+    height: 520px;
+    border-radius: 5px;
+}
+
+.image-card-name {
+    font-family: poppins;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px; 
+    line-height: 83%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.rectangle-name-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-card-price {
+    font-family: roboto;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px; 
+    line-height: 114%;
+    vertical-align: center;
+    text-align: left;
+    font-weight: 500;
+    display: inline-block;
+    margin: 0px;
+    padding-left:32px;
+}
+
+.rectangle-1 {
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    background-color: #FFBB00;
+    vertical-align: center;
+    margin: 5px;
+}
+
+  </style>
