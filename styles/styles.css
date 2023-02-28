@@ -38,7 +38,7 @@
 .showcase-container {
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 680px;
     padding-left: 220px;
     margin-bottom: 200px;
@@ -47,7 +47,7 @@
 .showcase-text-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     max-width: 35vw;
 }
 
@@ -56,9 +56,6 @@
     font-style: normal;
     font-size: 64px;
     line-height: 72px; 
-    line-height: 75%;
-    vertical-align: top;
-    text-align: left;
     font-weight: 600;
     color: #fafafa;
 }
@@ -67,12 +64,10 @@
     font-family: roboto;
     font-style: normal;
     font-size: 24px;
-    line-height: 136px; 
     line-height: 128%;
-    vertical-align: top;
-    text-align: left;
     font-weight: 500;
     color: #b3b3b3;
+    margin: 12px;
 }
 
 .showcase-button {
