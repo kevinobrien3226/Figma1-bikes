@@ -1,3 +1,6 @@
+* {
+
+}
 .page-header {
     background-color: black;
     display: flex;
@@ -39,7 +42,6 @@
     background-color: black;
     display: flex;
     justify-content: space-evenly;
-    height: 680px;
     padding-left: 220px;
     margin-bottom: 200px;
 }
@@ -80,9 +82,7 @@
 }
 
 .showcase-image {
-    width: 640px;
-    height: 800px;
-    padding-right: 140px;
+    width: auto;
 }
 
 .escolha-header {
@@ -228,9 +228,7 @@
 }
 
 .tools-image {
-    width: 700px;
-    height: 1120px;
-    padding-right: 140px;
+
 }
 
 .tec-ava-lower-container {
